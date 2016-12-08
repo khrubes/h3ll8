@@ -36,7 +36,7 @@ public class GraphAlgorithms {
 		
 		LinkedList<Edge<E>> shortestPath = new LinkedList<>();
 		try {
-			
+
 			//edge cases 
 			if (g == null || (!g.isDirectedGraph()) || vertexStart == null || vertexEnd == null) {
 				return null;	
@@ -110,11 +110,19 @@ public class GraphAlgorithms {
 							vertexToDistanceMap.put(neighbor, alternateDistanceThroughCurrentVertex);
 							vertexToPredecessorMap.put(neighbor, currentVertex);
 							
-							//openSetPriortyQueue.add(neighbor); ???
+							
+							if(openSetPriortyQueue.contains(neighbor)) {
+								// this vertex is already in the open set, but it's priority needs to be changed.							
+								//remove neighbor from it's old priority
+								openSetPriortyQueue.remove(neighbor);	
+								//when it is re-added, the updated value associated with neighbor in vertexToDistanceMap will change it's priority
+							}	
+							
+							openSetPriortyQueue.add(neighbor);						
 						}
-						openSetPriortyQueue.add(neighbor);
-					}
-
+						//openSetPriortyQueue.add(neighbor);
+						
+					}// !closedSet.contains(neighbor)
 				}
 
 			} // while (!openSetPriortyQueue.isEmpty())

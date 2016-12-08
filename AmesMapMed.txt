@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2016-11-12T04:33:02Z"/>
+
+  <bounds minlat="41.9391" minlon="-93.7814" maxlat="42.129" maxlon="-93.4621"/>
+
+ 	<node id="JeffsPizza" lat="42.022368" lon="-93.648518" version="1" timestamp="2010-02-12T05:43:36Z" changeset="3853771" uid="232171"
+	user="Jeff Ollie’s Bot"/>
+	<node id="West HyVee" lat="42.022559" lon="-93.668774" version="1"
+	timestamp="2010-02-12T05:43:36Z" changeset="3853771" uid="232171"
+	user="Jeff Ollie’s Bot"/>
+	<node id="East HyVee" lat="42.022637" lon="-93.619697" version="1"
+	timestamp="2010-02-12T05:43:36Z" changeset="3853771" uid="232171"
+	user="Jeff Ollie’s Bot"/>
+	
+
+	<node id="Kelsey" lat="42.026105" lon="-93.655675" version="1"
+	timestamp="2010-02-12T05:43:36Z" changeset="3853771" uid="232171"
+	user="Jeff Ollie’s Bot"/>
+	<node id="CornerHylandLinconWay" lat="42.022776" lon="-93.655570" version="1"
+	timestamp="2010-02-12T05:43:36Z" changeset="3853771" uid="232171"
+	user="Jeff Ollie’s Bot"/>
+	
+	<way id="16038319" version="4" timestamp="2012-10-01T13:28:53Z"
+	changeset="13322365" uid="590362" user="Mitchell Thomas">
+		<nd ref="West HyVee"/>
+		<nd ref="CornerHylandLinconWay"/>
+		<nd ref="JeffsPizza"/>
+		<nd ref="East HyVee"/>
+		<tag k="highway" v="residential"/>
+		<tag k="name" v="Lincoln Way"/>
+		<tag k="tiger:cfcc" v="A41"/>
+		<tag k="tiger:county" v="Story, IA"/>
+		<tag k="tiger:name_base" v="Wilmoth"/>
+		<tag k="tiger:name_direction_prefix" v="S"/>
+		<tag k="tiger:name_type" v="Ave"/>
+		<tag k="tiger:reviewed" v="no"/>
+		<tag k="tiger:separated" v="no"/>
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070810"/>
+		<tag k="tiger:tlid" v="65945844:65961902:65961903:65945810"/>
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-e80c81a2-0980-4acd-8909-7b56392d4de8"/>
+		<tag k="tiger:zip_left" v="50014"/>
+		<tag k="tiger:zip_right" v="50014"/>
+	</way>
+		
+	<way id="16038318" version="4" timestamp="2012-10-01T13:28:53Z"
+	changeset="13322365" uid="590362" user="Mitchell Thomas">
+		<nd ref="Kelsey"/>
+		<nd ref="CornerHylandLinconWay"/>
+		<tag k="highway" v="residential"/>
+		<tag k="name" v="Hyland"/>
+		<tag k="tiger:cfcc" v="A41"/>
+		<tag k="tiger:county" v="Story, IA"/>
+		<tag k="tiger:name_base" v="Wilmoth"/>
+		<tag k="tiger:name_direction_prefix" v="S"/>
+		<tag k="tiger:name_type" v="Ave"/>
+		<tag k="tiger:reviewed" v="no"/>
+		<tag k="tiger:separated" v="no"/>
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070810"/>
+		<tag k="tiger:tlid" v="65945844:65961902:65961903:65945810"/>
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-e80c81a2-0980-4acd-8909-7b56392d4de8"/>
+		<tag k="tiger:zip_left" v="50014"/>
+		<tag k="tiger:zip_right" v="50014"/>
+	</way>
+	
+	
+</osm>
